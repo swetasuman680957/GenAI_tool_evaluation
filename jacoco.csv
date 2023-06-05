@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+UserRegistration,reg.entity,Employee,42,26,0,0,12,13,6,7,6,7
+UserRegistration,reg,UserRegistrationApplication,8,0,0,0,3,0,2,0,2,0
+UserRegistration,reg.dto,EmployeeDTO,18,50,0,0,7,18,1,12,1,12
+UserRegistration,reg.dto,LoginDTO,12,32,0,0,5,12,1,8,1,8
+UserRegistration,reg.response,LoginResponse,32,0,0,0,13,0,7,0,7,0
+UserRegistration,reg.config,SecurityConfig,7,0,0,0,2,0,2,0,2,0
+UserRegistration,reg.controller,EmployeeController,65,41,7,5,21,10,5,4,0,3
+UserRegistration,reg.service,EmployeeImpl,90,0,6,0,21,0,6,0,3,0
