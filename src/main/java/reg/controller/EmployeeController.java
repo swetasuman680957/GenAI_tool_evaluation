@@ -40,7 +40,7 @@ public class EmployeeController {
             }
 
             // Check if email is a valid Deloitte email address
-            if (!employeeDTO.getEmail().endsWith("@deloitte.com")) {
+            if (!employeeDTO.getEmail().endsWith("deloitte.com")) {
                 return "Error: Only Deloitte email addresses are allowed";
             }
 
