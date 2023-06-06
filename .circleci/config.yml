@@ -29,7 +29,7 @@ jobs:
           command: mvn test
       - run:
           name: Coverage
-          command: bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r C:\Users\swetasuman\GENAI_TOOLS\GenAI_tool_evaluation\target\site\jacoco\jacoco.xml
+          command: bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r jacoco.xml
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
