@@ -27,6 +27,8 @@ jobs:
       - run:
           name: Test
           command: mvn test
+      - run:
+          name: Test
           command: bash <(curl -Ls https://coverage.codacy.com/get.sh)
 
 # Invoke jobs via workflows
